@@ -1,4 +1,32 @@
 # DFNet
+This is repo of paper 'An End-to-End Audio Classification Framework with Diverse Features for Obstructive Sleep Apnea-Hypopnea Syndrome Diagnosis'.
+
+
+## Data Preparation File Format
+
+Each annotation file should follow this format:
+'''
+Posture  Timestamp  Event_Type  Duration  Recording
+'''
+The mean of each line:
+'''
+**Field Descriptions:**
+- **Posture**: The physical orientation of the body during the recording, such as supine (lying on the back), prone (lying on the stomach), or lateral (lying on the side).
+- **Timestamp**: The time at which the event was recorded, formatted as HH:MM:SS.
+- **Event_Type**: The type of event that is being recorded, such as snoring or a breathing pause.
+- **Duration**: The duration of the event, typically measured in seconds.
+- **Recording**: Additional notes or data about the recording.
+'''
+
+## Extract MFCC
+Run the Preprocessing Script: Use the `data_proprocess/run.py` script. This script processes each audio file in the specified directory, performing tasks like time information extraction, audio cutting, and MFCC feature extraction.
+
+## Evaluate
+
+Run the script `main.py` to calculate the accuracy and F1 score of your model. You can execute this command in your terminal:
+
+```bash
+python main.py
 
 
 ## Acknowledgments and Citations
