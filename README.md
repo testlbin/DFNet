@@ -5,7 +5,7 @@ This is repo of paper 'An End-to-End Audio Classification Framework with Diverse
 ## Data Preparation File Format
 
 Each annotation file should follow this format:
-'''
+'''bash
 Posture  Timestamp  Event_Type  Duration  Recording
 '''
 The mean of each line:
