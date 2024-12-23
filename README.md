@@ -22,7 +22,7 @@ Run the Preprocessing Script: Use the `data_proprocess/run.py` script. This scri
 
 ## Evaluate
 
-Run the script `main.py` to calculate the accuracy and F1 score of your model. You can execute this command in your terminal:
+Run the script `main.py` to calculate the accuracy and F1 score of DFNet.
 
 ```bash
 python main.py
