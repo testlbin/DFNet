@@ -20,9 +20,9 @@ The mean of each line:
 ## Extract MFCC
 Run the Preprocessing Script: Use the `data_proprocess/run.py` script. This script processes each audio file in the specified directory, performing tasks like time information extraction, audio cutting, and MFCC feature extraction.
 
-## Evaluate
+## Train & Evaluate
 
-Run the script `main.py` to calculate the accuracy and F1 score of DFNet.
+Run the script `main.py` train DFNet and calculate the accuracy and F1 score.
 
 ```bash
 python main.py
