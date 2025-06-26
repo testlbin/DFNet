@@ -44,3 +44,18 @@ For theoretical foundations and methodology, the following papers were instrumen
   
 - **MiniRocket: A Very Fast (Almost) Deterministic Transform for Time Series Classification**
   - Dempster, Angus, Schmidt, Daniel F, and Webb, Geoffrey I. _Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining_. ACM, New York, 2021, pp. 248–257.
+
+
+# Citation
+```bibtex
+@article{li2025end,
+  title={An end-to-end audio classification framework with diverse features for obstructive sleep apnea-hypopnea syndrome diagnosis},
+  author={Li, Bin and Qiu, Xihe and Tan, Xiaoyu and Yang, Long and Tao, Jing and Fang, Zhijun and Huang, Jingjing},
+  journal={Applied Intelligence},
+  volume={55},
+  number={6},
+  pages={427},
+  year={2025},
+  publisher={Springer}
+}
+```
